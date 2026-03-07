@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #2d3436;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.98);
+            padding: 3rem;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        #load {
+            font-size: 1.3rem;
+            font-weight: 500;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+            min-height: 120px;
+            color: #4834d4;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #load br + text, 
+        #load span {
+            font-size: 1rem;
+            color: #636e72;
+            font-weight: 600;
+            margin-top: 15px;
+            display: block;
+        }
+
+        button {
+            background: #ff7675; 
+            color: white;
+            border: none;
+            padding: 16px 40px;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-radius: 50px; 
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(255, 118, 117, 0.3);
+            outline: none;
+        }
+
+        button:hover {
+            background: #ff5e57;
+            box-shadow: 0 10px 25px rgba(255, 118, 117, 0.5);
+        }
+
+        button:active {
+            transform: scale(0.96);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p id="load">Press the button to reveal a quote...</p>
+        
+        <button onclick="loadQuote()">New Quote</button>
+    </div>
+
+    <script src="./generate.js">
+    </script>
+</body>
+</html>
