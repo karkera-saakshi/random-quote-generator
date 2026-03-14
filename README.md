@@ -1,22 +1,22 @@
-# Random Quote Generator
+# 📝 Random Quote Generator
 
 A simple JavaScript project that displays random inspirational quotes along with their authors when the user clicks a button using random quote generator API.
 
-## Live Website
+## 🔗 Live Website
 https://karkera-saakshi.github.io/random-quote-generator/
 
-## Features
-- Generates random quotes
-- Displays quote author
-- Simple and clean UI
+## ✨ Features
+- 🎲 Generates random quotes
+- ✍️ Displays quote author
+- 🎨 Simple and clean UI
 
-## Technologies Used
+## 🛠 Technologies Used
 - HTML
 - CSS
 - JavaScript
 - Random Quote Generator API
 
-## Screenshots
+## 📸 Screenshots
 
 ### Starting Screen
 <img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/9f8a9a96-908a-4b6c-8997-2035d96d92d9" />
